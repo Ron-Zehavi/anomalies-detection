@@ -3,8 +3,7 @@ altair==4.1.0
 altair-viewer==0.3.0
 altair-data-server==0.4.1
 altair-saver==0.5.0
-eif==2.0.2
-folium==0.11.0 
+folium==0.11.0
 joblib==0.17.0
 kando==0.1.0
 Keras==2.4.3
