@@ -8,9 +8,42 @@
 The next thing we wanted to check is anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
 In [plot_anomalies_3D.ipynb][df1] run the files and enter `point_id` and `date range`. 
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/eif.png)
+![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/iso.png)
+![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/mf.png)
+![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/vae.png)
+
+Now we are looking on screenshots from the tool that show the information from point 883 in Gihon, at the same time - from 2020. The big blue cloud is made from all the normal points and the stars represent points that detected as anomalies by the different methods. 
+We first used a classic machine learning method to find anomalies called `Isolation Forest` and the more advanced version of it called `Extended Isolation Forest`. 
+The 2 methods are able to detect points that are isolated from the cloud, so sometimes there are events that do not necessarily pass the threshold but are clearly not part of the normal activity of the point, and we can detect them with this way. 
+Second, we used the `Matrix Profile` method to find anomalies, since the method use the form of the information we can again find abnormal behaviours. 
+And finally, we applied deep learning - `Auto Encoder` - the computer doesn’t work with isolated data or unique patterns, rather it learns the best set of rules that define each and every point, and detect as anomalies as the points that don’t fit into this set of rules. We believe that this last method will be the best to find more interesting cases like contamination events. 
+Moreover, you can use <mark>https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Data_with_anomalies/create_anomalies_df.ipynb</mark> to run the same process for other points.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <img src="icon.png" align="right" />
+
+
+
+
+
+
+
+
+
+
 
 # Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
 > A curated list of awesome READMEs
