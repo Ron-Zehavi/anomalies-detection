@@ -7,13 +7,15 @@
 ### Anomalies
 The next thing we wanted to check is anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
 
-In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies.ipynb run the files and enter `point_id` and `date range`. 
+In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies.ipynb run the files and enter `point_id` and `date range`.
+
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/eif.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/iso.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/mf.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/vae.png)
 
-Now we are looking on screenshots from the tool that show the information from point 883 in Gihon, at the same time - from 2020. The big blue cloud is made from all the normal points and the stars represent points that detected as anomalies by the different methods. 
+Now we are looking on screenshots from the tool that show the information from point 883 in Gihon, at the same time - from 2020. The big blue cloud is made from all the normal points and the stars represent points that detected as anomalies by the different methods.
+
 We first used a classic machine learning method to find anomalies called `Isolation Forest` and the more advanced version of it called `Extended Isolation Forest`. For more information check https://github.com/sahandha/eif.
 
 The 2 methods are able to detect points that are isolated from the cloud, so sometimes there are events that do not necessarily pass the threshold but are clearly not part of the normal activity of the point, and we can detect them with this way.
