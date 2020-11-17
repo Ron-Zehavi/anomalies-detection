@@ -1,3 +1,15 @@
+# Anomaly and Motif Detection
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ron-Zehavi/anomalies-detection/HEAD)
+
+### Motifs
+
+### Anomalies
+The next thing we wanted to check is anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
+In [plot_anomalies_3D.ipynb][df1] run the files and enter `point_id` and `date range`. 
+![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/eif.png)
+
+
 <img src="icon.png" align="right" />
 
 # Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
