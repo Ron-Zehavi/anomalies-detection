@@ -58,7 +58,7 @@ You can use the file https://github.com/Ron-Zehavi/anomalies-detection/blob/main
 And run the file.
 
 ### Anomalies
-The next thing we wanted to check is anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
+In the next section we find anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
 
 In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies.ipynb enter `NODE` and `WINDOW`, and run the file.
 
