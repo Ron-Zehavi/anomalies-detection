@@ -8,6 +8,7 @@ In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Research/create_s
 1. water_authority.json - file containing a dictionary of all points ID by water authorities
 
 https://github.com/Ron-Zehavi/anomalies-detection/blob/main/water_authority.json
+
 2. sectors.json - file containing a dictionary of all points ID by sectors
 
 https://github.com/Ron-Zehavi/anomalies-detection/blob/main/sectors.json
