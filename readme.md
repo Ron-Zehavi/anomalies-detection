@@ -58,18 +58,25 @@ You can use the file https://github.com/Ron-Zehavi/anomalies-detection/blob/main
 And run the file.
 
 ### Anomalies
-In the next section we find anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods. 
+In the next section we find anomalies, through anomalies detection we believe more contamination events can be revealed. Therefore, we built a tool for the development team that allows finding anomalies according to 4 different methods.
 
-In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies.ipynb enter `NODE` and `WINDOW`, and run the file.
+In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies.ipynb you need to enter:
+* `NODE` - point ID
 
-In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies_3D.ipynb enter `NODE` and run the file.
+And run the file.
+
+In https://github.com/Ron-Zehavi/anomalies-detection/blob/main/plot_anomalies_3D.ipynb you need to enter:
+* `NODE` - point ID
+* `WINDOW` - window size
+
+And run the file.
 
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/eif.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/iso.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/mf.png)
 ![alt text](https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Readme_files/vae.png)
 
-Now we are looking on screenshots from the tool that show the information from point 883 in Gihon, at the same time - from 2020. The big blue cloud is made from all the normal points and the stars represent points that detected as anomalies by the different methods.
+Now we are looking on screenshots from the tool that show the information from point 883 in Gichon, at the same time - from 2020. The big blue cloud is made from all the normal points and the stars represent points that detected as anomalies by the different methods.
 
 We first used a classic machine learning method to find anomalies called `Isolation Forest` and the more advanced version of it called `Extended Isolation Forest`. For more information check https://github.com/sahandha/eif.
 
@@ -79,4 +86,8 @@ Second, we used the `Matrix Profile` method to find anomalies, since the method 
 
 And finally, we applied deep learning - `Auto Encoder` - the computer doesn’t work with isolated data or unique patterns, rather it learns the best set of rules that define each and every point, and detect as anomalies as the points that don’t fit into this set of rules. We believe that this last method will be the best to find more interesting cases like contamination events. 
 
-Moreover, you can use https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Data_with_anomalies/create_anomalies_df.ipynb to run the same process for other points.
+Moreover, you can use https://github.com/Ron-Zehavi/anomalies-detection/blob/main/Data_with_anomalies/create_anomalies_df.ipynb to run the same process for other points. You nedd to enter:
+* `WATER_AUTHORITY_NUM` - water authority ID
+* `WINDOW` - window size
+
+And run the file.
