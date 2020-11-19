@@ -2,6 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ron-Zehavi/anomalies-detection/HEAD)
 
+The project involved using mining time-series data and analysing it to find small motifs or anomalous signatures. To this end, we used common anomaly detection tools such as Isolation Forest,  Extended Isolation Forest, Eamonn Keogh’s Matrix Profile and Auto Encoder neural network. We created a graphical UI to allow a broad range of company employees to use it for exploring our findings. In the next project of the company (further research) the company aims to correlate our findings with pollution or maintenance related behaviour patterns.
 
 ### Installation
 
